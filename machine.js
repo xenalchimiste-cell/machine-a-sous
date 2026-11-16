@@ -12,15 +12,15 @@ console.log('5. Quitter ......');
 
 const option = prompt('Choisissez une option : ');
 if (option === '1') {
-    console.log('Vous avez choisi le : ' + option);
+    console.log('Vous avez tapé le : Café - 0,60 €');
 } else if (option === '2') {
-    console.log('Vous avez choisi le : ' + option);   
+    console.log('Vous avez tapé le : Thé - 0,80 €');   
 } else if (option === '3') {
-    console.log('Vous avez choisi le : ' + option);
+    console.log('Vous avez tapé le : Chocolat - 1,10 €');
 } else if (option === '4') {
-    console.log('Vous avez choisi le : ' + option);
+    console.log('Vous avez tapé le : Eau - 0,50 €');
 } else if (option === '5') {
-    console.log('Au revoir !');
+    console.log('Vous avez tapé le : Quitter - 0,00 €');
 } else {
-    console.log('Option invalide');
+    console.log('Option invalide - 0,00 €');
 }   
